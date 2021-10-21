@@ -22,4 +22,5 @@ python3 calc.py
 ``` 
 > Se você não tem Ubuntu Server UTF-8 o código não vai funcionar 
 
-![testando](https://media.discordapp.net/attachments/795130563916595270/900540042487943188/GIF-211020_212220.gif) > vídeo reproduzido em 5.0x
+![testando](https://media.discordapp.net/attachments/795130563916595270/900540042487943188/GIF-211020_212220.gif) 
+> vídeo reproduzido em 5.0x
