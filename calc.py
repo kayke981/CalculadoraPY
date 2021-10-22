@@ -8,21 +8,6 @@ from importlib import reload
 if int(sys.version[0]) < 3:
    reload(sys)
    sys.setdefaultencoding("utf-8")
-  
-
-def calculando():
-  time.sleep(1)
-  for pontos in range(1, 5):
-   palavra = 'Calculando'
-   if pontos == 1:
-     caractere = '.'
-   elif pontos == 2:
-     caractere = '..'
-   elif pontos == 3:
-     caractere = '...'
-    
-   print(palavra + caractere, end='\r')
-   time.sleep(1)
    
 def versao():
   cprint('.************************************************.', 'cyan', attrs=['bold'])
@@ -79,10 +64,6 @@ if escolha == '1':
   calc = input('Escolha o número: ')
   
  print(calc, sinal, calc2 + ' = ?')
-
- calculando()
- time.sleep(1)
- print('Pronto       ')
  
  try:
    if sinal == '+':
@@ -193,10 +174,6 @@ if escolha == '11':
     potencia = Decimal(input('Escolha o número da potência: '))
   
    print(str(potencianum) + '^(' + str(potencia) + ') = ?')
-  
-   calculando()
-   time.sleep(1)
-   print('Pronto       ')
  
    try:
      total = Decimal(potencianum) ** Decimal(potencia)
@@ -218,10 +195,6 @@ if escolha == '12':
      qouc = '²√'
      print(str(qouc) + str(número) + ' = ?')
     
-     calculando()
-     time.sleep(1)
-     print('Pronto       ')
-     
      try:
        
        total = Decimal(número) ** Decimal((1/2))
@@ -237,11 +210,6 @@ if escolha == '12':
        número = input('Escolha o número: ')
      qouc = '³√'
      print(str(qouc) + str(número) + ' = ?')
-    
-     calculando()
-     time.sleep(1)
-     print('Pronto       ')
-
       
      try: 
 
@@ -261,10 +229,6 @@ if escolha == '13':
     print('Número inválido, forneça um número')
     pi = input('Coloque o valor de π(pi): ')
   print('2 *', pi, '/', circunferência, '= ?')
-  calculando()
-  
-  time.sleep(1)
-  print('Pronto       ')
   
   pitotal = 2 * Decimal(pi)
   total = Decimal(circunferência) / Decimal(pitotal)
@@ -280,9 +244,6 @@ if escolha == '14':
     print('Forneça um número')
     raio = input('Coloque o valor do raio: ')
   print('2 *', pi + ' *', raio, '= ?')
-  calculando()
-  time.sleep(1)
-  print('Pronto       ')
   
   total = 2 * Decimal(pi) * Decimal(raio)
   
@@ -296,9 +257,7 @@ if escolha == '15':
   
   print(raio, '* 2 = ?')
   
-  calculando()
-  time.sleep(1)
-  print('Pronto       ')
+  
   
   total = Decimal(raio) * 2
   print(raio, '* 2 =', total)
@@ -326,9 +285,7 @@ if escolha == '16':
     
      print(quantidade1 + comprimentos, 'para', comprimentos2, '= ?')
     
-     calculando()
-     time.sleep(1)
-     print('Pronto       ')
+     
   
      # Possibilidades com "mm"
      if comprimentos == comprimentos2:
@@ -460,9 +417,7 @@ if escolha == '16':
     
      print(quantidade1 + comprimentos, 'para', comprimentos2, '= ?')
     
-     calculando()
-     time.sleep(1)
-     print('Pronto       ')
+     
   
      # Possibilidades com "mm"
      if comprimentos == comprimentos2:
@@ -594,9 +549,6 @@ if escolha == '16':
     
      print(quantidade1 + comprimentos, 'para', comprimentos2, '= ?')
     
-     calculando()
-     time.sleep(1)
-     print('Pronto       ')
   
      # Possibilidades com "mm"
      if comprimentos == comprimentos2:
