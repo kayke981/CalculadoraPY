@@ -11,10 +11,9 @@ if int(sys.version[0]) < 3:
    
 def versao():
   cprint('.************************************************.', 'cyan', attrs=['bold'])
-  cprint('| [+] Criado por kayke981                        |', 'cyan', attrs=['bold'])
-  cprint('| [+] Versão 0.0.5                               |', 'cyan', attrs=['bold'])
-  cprint('|                                                |', 'cyan', attrs=['bold'])
-  cprint('|                                                |', 'cyan', attrs=['bold'])
+  cprint('|          [+] Criado por kayke981               |', 'cyan', attrs=['bold'])
+  cprint('|          [+] Versão 0.0.5                      |', 'cyan', attrs=['bold'])
+  cprint('|          [+] https://github.com/kayke981       |', 'cyan', attrs=['bold'])
   cprint('|                                                |', 'cyan', attrs=['bold'])
   cprint("'************************************************'", 'cyan', attrs=['bold'])
   
