@@ -109,10 +109,6 @@ if escolha == '2':
   calc = input('Escolha o número: ')
   
  print(calc, sinal, calc2, sinal2, calc3 + ' = ?')
-
- calculando()
- time.sleep(1)
- print('Pronto       ')
  
  try:
 
