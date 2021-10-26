@@ -695,6 +695,7 @@ if escolha == '18':
   total = Decimal(b) * Decimal(b2)
   print('A =', str(total))
   resultado_certo_ou_errado()
+
 if escolha == '19':
   h = input('Coloque a altuta do triângulo: ')
   while len(h) < 0 or h == "":
@@ -708,6 +709,7 @@ if escolha == '19':
   total = totalMul / 2
   print('A =', str(total))
   resultado_certo_ou_errado()
+
 if escolha == '20':
   h = input('Coloque a altura do retângulo: ')
   while len(h) < 0 or h == "":
@@ -719,7 +721,8 @@ if escolha == '20':
   total = Decimal(h) * Decimal(b)
   print('A =', str(total))
   resultado_certo_ou_errado()
-if escolha != '21':
+
+if escolha == '21':
   d1 = input('Coloque a diagonal do losango: ')
   while len(d1) < 0 or d1 == "":
     d1 = input('Coloque a diagonal do losango: ')
@@ -732,6 +735,7 @@ if escolha != '21':
   total = totalMulti / 2
   print('A =', str(total))
   resultado_certo_ou_errado()
+
 if escolha == '22':
   b1 = input('Coloque a primeira base do trapézio: ')
   while len(b1) < 0 or b1 == "":
@@ -750,6 +754,7 @@ if escolha == '22':
   total = Decimal(totalMulti) / 2
   print('A =', str(total))
   resultado_certo_ou_errado()
+
 if escolha == '23':
   r1 = input('Coloque o primeiro raio: ')
   while len(r1) < 0 or r1 == "":
