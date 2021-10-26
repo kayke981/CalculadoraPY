@@ -31,7 +31,7 @@ def versao():
 
 
 def inicio():
-  cprint('\n[NOVO] Colocado as áreas e desenvolvimento para exercícios que exigem desenvolvimento', 'blue', attrs['bold'])
+  cprint('\n[NOVO] Colocado as áreas e desenvolvimento para exercícios que exigem desenvolvimento', 'blue', attrs=['bold'])
   cprint('\n[AVISO] Esse projeto NÃO TEM 100% de certeza, estudem que é melhor, não use esse projeto pensando que vai gabaritar na prova, o projeto foi criado para ser algo muito menos sério do que vestibular, prova, simulado. Se estiver fazendo um agora, boa sorte!', 'yellow', attrs=['bold'], file=sys.stderr)
   cprint('[!] A responsabilidade é toda sua, se ir mal em um simulado, prova, vestibular, a culpa não irá ser do projeto, estudem que é melhor :)\n\n', 'red', attrs=['bold'], file=sys.stderr)
   cprint('[1] 2 números\n[2] 3 números\n[11] Potência\n[12] Raiz Quadrada e Cúbica\n[13] Descobrir o raio\n[14] Circunferência (Círculo)\n[15] Diâmetro\n[16] Conversor de medida\n[17] Área do círculo\n[18] Área do quadrado\n[19] Área do triângulo\n[20] Área do retângulo\n[21] Área do losango\n[22] Área do trapézio\n[23] Área da coroa circular\n[exit] exit\n[wiki] Wiki (ajuda)\n\n\n', 'white', attrs=['bold'], file=sys.stderr)
