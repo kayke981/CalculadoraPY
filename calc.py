@@ -690,7 +690,7 @@ if escolha == '18':
     b = input('Coloque a base do quadrado: ')
   b2 = input('Coloque a base do quadrado [padrão=' + b + ']: ')
   if len(b2) < 0 or b2 == "":
-    b2 == b
+    b2 = b
   print('A =', b, '*', b2)
   total = Decimal(b) * Decimal(b2)
   print('A =', str(total))
