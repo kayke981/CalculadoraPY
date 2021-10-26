@@ -728,7 +728,7 @@ if escolha != '21':
     d2 = d1
   print('A =', d1, '*', d2, '/ 2')
   totalMulti = Decimal(d1) * Decimal(d2)
-  print('A =', str(totalMulti))
+  print('A =', str(totalMulti), '/ 2')
   total = totalMulti / 2
   print('A =', str(total))
   resultado_certo_ou_errado()
