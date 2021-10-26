@@ -235,7 +235,6 @@ if escolha == '13':
   total = Decimal(circunferência) / Decimal(pitotal)
   print('R = ' + str(total))
   
-  print('2 *', pi, '/', circunferência, '=', total)
   resultado_certo_ou_errado()
 if escolha == '14':
   pi = input('Coloque o valor de π(pi): ')
