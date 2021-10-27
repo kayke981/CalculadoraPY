@@ -762,12 +762,14 @@ if escolha == '23':
   r2 = input('Coloque o segundo raio: ')
   while len(r2) < 0 or r2 == "":
     r2 = input('Coloque o segundo raio: ')
-  pi = input('Coloque o valor de π(pi)')
+  pi = input('Coloque o valor de π(pi): ')
   while len(pi) < 0 or pi == "":
-    pi = input('Coloque o valor de π(pi)')
+    pi = input('Coloque o valor de π(pi): ')
   print('A =', pi, '* (' + r1 + '²', '-', r2 + '²)')
-  totalMenos = Decimal(r1) - Decimal(r2)
-  print('A =', pi + '*', str(totalMenos))
+  r1total = Decimal(r1) ** 2
+  r2total = Decimal(r2) ** 2
+  totalMenos = Decimal(r1total) - Decimal(r2total)
+  print('A =', pi, '*', str(totalMenos))
   total = Decimal(pi) * Decimal(totalMenos)
   print('A =', str(total))
   resultado_certo_ou_errado()
